@@ -13,7 +13,8 @@ I had an internship for which i had to make some C# applications. This is one of
 
 ---
 # Credits
-I used [WPF-Flappy-Bird-Game](https://github.com/mooict/WPF-Flappy-Bird-Game?tab=readme-ov-file) from [mooict](https://github.com/mooict) as the starting point since i didn't have a clue how to even change the positon of elements without using margins (🤮).
+- I used [WPF-Flappy-Bird-Game](https://github.com/mooict/WPF-Flappy-Bird-Game?tab=readme-ov-file) from [mooict](https://github.com/mooict) as the starting point since i didn't have a clue how to even change the positon of elements without using margins (🤮).
+- I used the [flappy bird assets](https://github.com/samuelcust/flappy-bird-assets/tree/master) from [samuelcust](https://github.com/samuelcust).
 
 <br/>
 
