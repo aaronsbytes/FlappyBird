@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="background-day.png" />
+    <None Remove="base.png" />
+    <None Remove="Bird.png" />
+    <None Remove="bluebird-downflap.png" />
+    <None Remove="bluebird-midflap.png" />
+    <None Remove="bluebird-upflap.png" />
+    <None Remove="button_background.png" />
+    <None Remove="favicon.ico" />
+    <None Remove="gameover.png" />
+    <None Remove="message.png" />
+    <None Remove="pipe-green-upside-down.png" />
+    <None Remove="pipe-green.png" />
+    <None Remove="pipe.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="background-day.png" />
+    <Resource Include="base.png" />
+    <Resource Include="Bird.png" />
+    <Resource Include="bluebird-downflap.png" />
+    <Resource Include="bluebird-midflap.png" />
+    <Resource Include="bluebird-upflap.png" />
+    <Resource Include="button_background.png" />
+    <Resource Include="favicon.ico" />
+    <Resource Include="gameover.png" />
+    <Resource Include="message.png" />
+    <Resource Include="pipe-green-upside-down.png" />
+    <Resource Include="pipe-green.png" />
+    <Resource Include="pipe.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
